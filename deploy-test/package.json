@@ -15,7 +15,7 @@
     "clean": "del-cli dist",
     "clean:styles": "del-cli src/styles",
     "copy": "mkdir dist && xcopy src dist /e /exclude:excludelist.txt",
-    "publish": "gh-pages -d dist -e online-zoo -m \"Deploying to gh-pages\""
+    "publish": "gh-pages -d dist -e deploy-test -m \"Deploying to gh-pages\""
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
